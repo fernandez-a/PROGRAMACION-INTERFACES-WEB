@@ -1,0 +1,118 @@
+::placeholder { color: white; }
+
+.App {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to right bottom, #65dfc9, rgba(102, 208, 226, 0.733));
+  justify-content: center;
+  align-items: center;
+}
+
+.characterName{
+  text-align: center;
+}
+
+.characterList:hover{
+  color:rgb(0, 136, 255);
+  cursor:pointer;
+}
+
+.body {
+  display:flex;
+  border-radius: 20px;
+  width:80%;
+  height:80%;
+  background: linear-gradient(to right bottom, rgb(214, 211, 211),rgb(128, 195, 204));
+  flex-flow: row wrap;
+}
+
+.list{
+  border-radius: 20px;
+  background: linear-gradient(to right bottom, rgb(255,255,255,0.7),rgb(255,255,255,0.3));
+}
+
+
+.card{
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+.character {
+  box-shadow: 6px 6px 15px #5c5e5e;
+  width: 35%;
+  border-radius:10px;
+  margin-bottom:15px
+}
+
+.character > p{
+  margin-left: 10px;
+}
+
+.world {
+  box-shadow: 6px 6px 15px #5c5e5e;
+  width: 35%;
+  border-radius:10px;
+  margin-bottom:15px
+}
+
+.world > p{
+  margin-left: 10px;
+}
+
+
+.listCharacters{
+  color: black;
+  margin:20px
+}
+
+.infoCharacter {
+  border-radius: 10px;
+  background: linear-gradient(to right bottom, rgb(255, 255, 255,1),rgb(255, 255, 255,0.8));
+  box-shadow: 6px 6px 15px #5c5e5e;
+  width: 50%;
+  height:40%;
+  margin-left:10%;
+  justify-content: center;
+  align-self: center;
+
+}
+
+#searcher {
+  margin: 20px;
+}
+
+.form-control {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background:gray;
+  color: white;
+  font-size: 18px;
+  width: 200px;
+  height: 27px;
+  border-radius: 15px;
+  margin-right: 10px;
+  
+}
+
+#searchButton {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background:gray;
+  color:white;
+  border-radius: 15px;
+  font-size: 18px;
+  width: 80px;
+  height: 30px;
+}
+
+#searchButton:hover{
+  cursor:pointer;
+}
