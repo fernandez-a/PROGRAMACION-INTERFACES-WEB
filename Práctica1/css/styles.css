@@ -1,0 +1,118 @@
+body{
+    margin : 0;
+    background-color: black;
+}
+
+@font-face {
+    font-family: "Fuente";
+    src: url("../Archivos/fuentes/Minecraft.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+#title1{
+    color: white;
+    top: 20%;
+    font-family: "Fuente";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-20%);
+    font-size: 50;
+}
+
+#title2{
+    color: white;
+    top: 30%;
+    font-family: "Fuente";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    font-size: 50;
+}
+
+#title2:hover{
+    color: green;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#title3{
+    color: white;
+    top: 50%;
+    font-family: "Fuente";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+    font-size: 35;
+}
+
+#scoreboardTitle{
+    color: white;
+    font-family: "Fuente";
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,0%);
+    font-size: 20;
+}
+
+a{
+    text-decoration: none;
+}
+
+#Score{
+    color: white;
+    font-family: "Fuente";
+    font-size: 30;
+    top: 2%;
+    left: 2%;
+    position: absolute;
+    transform: translate(-2%,-2%);
+}
+
+img {
+    width: 50;
+    height: 50;
+}
+
+canvas{
+    width: 1400px;
+    height: 800px;
+    border: green 5px solid;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position:absolute;
+}
+
+#lives{
+    color: white;
+    font-family: "Fuente";
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+
+#gameOver{
+    font-size: 700;
+    color: white;
+    font-family: "Fuente";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position:absolute;
+    
+}
+
+#PlayAgain{
+    color: white;
+    font-family: "Fuente";
+}
+
+#PlayAgain:hover{
+    color: green;
+    cursor: pointer;
+    text-decoration: none;
+}
+
