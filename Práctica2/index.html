@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <input class="form-control" type="text" placeholder="Rick Morty character" >
+            <button type="submit" class="searchButton">Buscar</button>
+        </form>
+    </div>
+    <div id = "characters-container" class = "characters-container">
+    </div>
+    <script src="data.js"></script>
+    <div class="buttonController">
+        <button id="prevPage" class="pageButton"onclick="prevPage()"><</button>
+        <div class="pageController" id = "numPagina">1</div>
+        <button id="nextPage" class="pageButton" onclick="nextPage()">></button>
+    </div>
+</body>
+
+</html>
